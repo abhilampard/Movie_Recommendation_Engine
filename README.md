@@ -5,19 +5,21 @@
 
 * Item based collaborative filtering uses the patterns of users who liked the same movie as me to recommend me a movie (users who liked the movie that I like, also liked these other movies).
 
-* Recommendation based on user's input of any movie present in the dataset is done.
+* Recommendation based on user's input of any movie present in the dataset.
 
 ## Dataset
 The following main data source was used for this project:
 - [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/)
 
-## Data Pre-processing
+## How does it work?
+
+### Data Pre-processing
 
 - Dropping columns that are not required
 
 - Merging dataframes
 
-## Pivot Table 
+### Pivot Table 
 
 ![Pivot_Table](https://github.com/abhilampard/Movie_Recommendation_Engine/blob/master/Pivot_Table.PNG)
 
@@ -26,14 +28,14 @@ The following main data source was used for this project:
 
 - Pivot table is created as shown in the image with Movies as rows, Users as columns and Ratings as values. 
 
-## Cosine Similarity
+### Cosine Similarity
 
 - Also known as vector-based similarity, this formulation views two items and their ratings as vectors, and defines the similarity between them as the angle between these vectors:
 
 ![itembased-cosine](https://github.com/abhilampard/Movie_Recommendation_Engine/blob/master/itembased-cosine.png)
 
 
-## Recommender
+### Recommender
 
 - User enters his favourite movie (or the movie on the basis of which he wants the system to recommend movies)
 
