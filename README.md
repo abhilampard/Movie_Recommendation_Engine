@@ -8,7 +8,7 @@
 * Recommendation based on user's input of any movie present in the dataset is done.
 
 ## Dataset
-The following main data sources were used for this project:
+The following main data source was used for this project:
 - [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/)
 
 ## Data Pre-processing
