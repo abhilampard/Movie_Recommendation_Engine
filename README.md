@@ -7,6 +7,12 @@
 
 * Recommendation based on user's input of any movie present in the dataset.
 
+## Files
+
+- Movie_Recommender_Notebook.ipynb: Jupyter notebook with step-by-step instructions
+- Movie_Recommender_User_Input.py: Python file for allowing user's input of movie
+
+
 ## Dataset
 The following main data source was used for this project:
 - [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/)
